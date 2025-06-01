@@ -1,5 +1,5 @@
 
-# ResNet-50 GPU Inference Benchmarking on Northeastern Explorer Cluster
+# ResNet-50 GPU Inference Benchmarking on Explorer Cluster
 
 This is the step-by-step instructions for running ResNet-50 inference benchmarks using Python on the Northeastern University Explorer GPU cluster.
 
