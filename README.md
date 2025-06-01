@@ -126,17 +126,16 @@ GPU Utilization          : 69.0 %
 ---
 
 ## 8. Troubleshooting
-
-- **Import errors**: Ensure you have installed all required packages inside your conda environment.
+- **Import errors**: Ensure that all the required packages have been installed inside your conda environment.
 - **File not found**: Check that your script and any input data are in your working directory.
-- **Memory errors**: Reduce the batch size if you run into GPU memory issues.
-- **Accuracy = 0%**: Ensure you are running inference on properly preprocessed and labeled validation/test images (random data will yield 0%).
+- **Memory errors**: Reduce the batch size if it runs into GPU memory issues.
+- **Accuracy = 0%**: Ensure it is running inference on properly preprocessed and labeled validation/test images (random data will yield 0%).
 
 ---
 
 ## Notes
 
-- You can modify the Python scripts to use PyTorch or TensorFlow as needed.
+- The Python script can be modified to use PyTorch or TensorFlow as needed.
 - Adjust the SLURM resource request based on GPU availability (`--gres=gpu:a100:1` for A100, etc.).
 - For extended jobs, use SLURM batch scripts instead of interactive sessions.
 
