@@ -133,6 +133,9 @@ GPU Utilization          : 69.0 %
 
 ---
 
+## Documentation
+All the required parameters like Inference time, throughput, accuracy, GPU memory, GPU utilization, Memory used, Total memory are documented in the pdf file.
+
 ## Notes
 
 - The Python script can be modified to use PyTorch or TensorFlow as needed.
